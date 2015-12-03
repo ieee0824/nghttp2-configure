@@ -34,4 +34,4 @@ sudo make install
 
 ldconfig
 
-sudo nghttpx -s -f'*,443' -b127.0.0.1,8080 server.key server.crt
+sudo nghttpx -s -f'*,443' -b127.0.0.1,80 server.key server.crt
